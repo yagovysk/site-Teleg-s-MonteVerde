@@ -1,16 +1,16 @@
 .Container-Home {
-  background: url('../../assets/fundo-gas.png');
-  width: 100vw;
-  height: 71vh;
-  background-size: cover;
+  background: url("../../assets/fundo-gas.png");
   background-position: center;
-  background-repeat: no-repeat;
   display: grid;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
   position: relative;
-  gap: 2rem;
+  padding: 2rem 0;
+  gap: 1rem;
 }
 .Container-Home::before {
-  content: ''; /* Adiciona conteúdo vazio para a pseudo-classe ::before */
+  content: ""; /* Adiciona conteúdo vazio para a pseudo-classe ::before */
   position: absolute; /* Torna o elemento ::before posicionado de forma absoluta */
   top: 0;
   left: 0;
@@ -30,8 +30,8 @@
   padding-left: 6rem;
   gap: 5rem;
 }
-.container-h1 {
-  font-family: 'Open sans', sans-serif;
+.Container-Home h1 {
+  font-family: "Open sans", sans-serif;
   padding-top: 10rem;
   font-size: 2rem;
   text-align: left;
@@ -39,7 +39,7 @@
   color: #fff;
   z-index: 2;
 }
-.container-h1 span {
+.Container-Home span {
   color: rgb(8, 52, 134);
 }
 .container-buttons {
@@ -56,7 +56,7 @@
   background: #25d366;
   color: #fff;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
   border-radius: 10px;
@@ -82,7 +82,7 @@
   background: #0a0a0a;
   color: #fff;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
   border-radius: 10px;
@@ -99,12 +99,11 @@
   .Container-Home {
     margin-top: 0;
     padding: 0 !important;
-    height: 30vh;
-    justify-content: center;
+
     background: none;
   }
   .Container-Home::before {
-    content: ''; /* Adiciona conteúdo vazio para a pseudo-classe ::before */
+    content: ""; /* Adiciona conteúdo vazio para a pseudo-classe ::before */
     position: absolute; /* Torna o elemento ::before posicionado de forma absoluta */
     top: 0;
     left: 0;
@@ -120,15 +119,15 @@
   }
   .container-texts-home {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 
+    justify-content: center;
+    object-position: center;
     align-items: center;
     padding: 0;
-    gap: 2rem;
+    gap: 1rem;
   }
-  .container-h1 {
-    font-family: 'Open sans', sans-serif;
+  .Container-Home h1 {
+    font-family: "Open sans", sans-serif;
     padding: 0;
     font-size: 1rem;
     text-align: center;
@@ -151,7 +150,7 @@
     color: #fff;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 0.8rem;
     text-align: center;
@@ -170,7 +169,7 @@
     background: #0a0a0a;
     color: #fff;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 0.8rem;
     border-radius: 10px;
@@ -181,10 +180,9 @@
   }
   .container-home-img {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0;
-    height: 10rem;
+    padding: 1rem !important;
+    object-fit: center;
   }
   .container-home-img img {
     width: 100%;

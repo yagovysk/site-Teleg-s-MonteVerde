@@ -1,16 +1,16 @@
 .Depoiments-container {
-  background: url('../../assets/fundo-depoiments.jpg');
+  background: url("../../assets/fundo-depoiments.jpg");
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1.5rem 0;
 }
 .Depoiments-container h1 {
   color: #ffff;
 
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -59,7 +59,7 @@
 .testimonial-slide h2 {
   color: var(--Black-100, #2f3137);
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -76,7 +76,7 @@
 .testimonial-text {
   color: var(--Black-50, #707070);
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -85,7 +85,7 @@
 }
 .testimonial-author {
   color: blue;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

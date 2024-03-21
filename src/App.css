@@ -3,14 +3,19 @@
   padding: 0;
 }
 .Container-App {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  align-items: center;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .whatsapp-button {
   position: fixed;
   display: flex;
   bottom: 20px; /* Ajuste conforme necessário */
-  right: 30px; /* Ajuste conforme necessário */
+  right: 17.5px; /* Ajuste conforme necessário */
   background-color: #25d366; /* Cor verde do WhatsApp */
   color: #fff; /* Cor branca do ícone */
   padding: 1.2rem 1.4rem;
@@ -19,7 +24,7 @@
   border-radius: 100%;
   font-size: 24px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 999;
 }
 .phone-button {
   position: fixed;
@@ -58,9 +63,9 @@
 @media (max-width: 768px) {
   .whatsapp-button {
     bottom: 10px; /* Ajuste conforme necessário para dispositivos móveis */
-    right: 60px; /* Ajuste conforme necessário para dispositivos móveis */
+    right: 30px; /* Ajuste conforme necessário para dispositivos móveis */
     padding: 0.3rem 0.5rem;
-    z-index: 1;
+    z-index: 999;
   }
   .icon {
     width: 1rem;
@@ -68,9 +73,9 @@
   }
   .phone-button {
     bottom: 50px;
-    right: 60px;
+    right: 30px;
     padding: 0.3rem 0.5rem;
-    z-index: 1;
+    z-index: 999;
   }
   .phone-icon {
     height: 1rem;

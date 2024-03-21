@@ -1,23 +1,23 @@
-import './Home.css';
-import { BsFillTelephonePlusFill } from 'react-icons/bs';
-import { SiWhatsapp } from 'react-icons/si';
-import foto from '../../assets/fundo-gas.png';
+import "./Home.css";
+import { BsFillTelephonePlusFill } from "react-icons/bs";
+import { SiWhatsapp } from "react-icons/si";
+import foto from "../../assets/fundo-gas.png";
 
 export function Home() {
   return (
-    <div id="home" className="Container-Home">
+    <section id="home" className="Container-Home">
       <article className="container-texts-home">
-        <div className="container-h1">
-          <h1>
-            Desconto de <span>R$ 10,00</span> para quem comprar pelo site!!
-            Clique <span> em um dos botões</span> e Peça agora!
-          </h1>
-        </div>
+        <h1>
+          Desconto de <span>R$ 5,00</span> para quem comprar pelo site!! Clique{" "}
+          <span> em um dos botões</span> e Peça agora!
+        </h1>
+
         <div className="container-buttons">
           <a
             className="button-home"
             href="https://wa.me/553141271810?text=Quero garantir meu desconto! (Envie esta mensagem para garantir seu desconto.)"
-            target="blank">
+            target="blank"
+          >
             Peça pelo Zap <SiWhatsapp />
           </a>
           <a className="button-home-2" href="tel:+553141271810" target="blank">
@@ -28,6 +28,6 @@ export function Home() {
       <div className="container-home-img">
         <img src={foto} alt="" />
       </div>
-    </div>
+    </section>
   );
 }
