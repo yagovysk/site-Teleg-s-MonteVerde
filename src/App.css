@@ -30,7 +30,7 @@
   position: fixed;
   display: flex;
   bottom: 120px; /* Ajuste conforme necessário */
-  right: 20px; /* Ajuste conforme necessário */
+  right: 18px; /* Ajuste conforme necessário */
   background-color: #2687d6; /* Cor verde do WhatsApp */
   color: #fff; /* Cor branca do ícone */
   padding: 1.2rem 1.4rem;
@@ -39,7 +39,7 @@
   border-radius: 100%;
   font-size: 24px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 999;
 }
 .phone-button .phone {
   text-decoration: none;
